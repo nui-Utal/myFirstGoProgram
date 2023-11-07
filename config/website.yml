@@ -1,0 +1,21 @@
+mysql:
+  dsn: root:1111@tcp(127.0.0.1:3306)/xinye?charset=utf8mb4&parseTime=True&loc=Local
+
+#  dsn: root:1111@tcp(127.0.0.1:3306)/xinye_official_website?charset=utf8mb4&parseTime=True&loc=Local
+#  user: root
+#  password: 1111
+#  addr: 127.0.0.1:3306
+#  database: xinye_official_website
+
+redis:
+  addr: localhost:6379
+  password: ""
+  DB: 0
+  poolSize: 30
+  minIdleConn: 30
+
+port: 2022
+
+picture:
+  avatar: avatar
+  essay: inset
